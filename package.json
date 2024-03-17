@@ -1,5 +1,5 @@
 {
-    "name": "@diia-inhouse/test",
+    "name": "@kant2002-diia-inhouse/test",
     "version": "5.1.2",
     "description": "test-utils",
     "main": "dist/index.js",
@@ -47,18 +47,18 @@
         "luxon": "3.4.4"
     },
     "devDependencies": {
-        "@diia-inhouse/configs": "^1.27.1",
-        "@diia-inhouse/eslint-config": "^3.5.0",
-        "@diia-inhouse/types": "^5.0.1",
+        "@kant2002-diia-inhouse/configs": "^1.27.1",
+        "@kant2002-diia-inhouse/eslint-config": "^3.5.0",
+        "@kant2002-diia-inhouse/types": "^5.0.1",
         "@types/lodash": "4.14.202",
         "@types/luxon": "3.3.5",
         "bson": "6.2.0",
         "mongoose": "8.0.0",
         "ts-proto": "1.148.2",
-        "type-fest": "4.3.1"
+        "type-fest": "4.12.0"
     },
     "peerDependencies": {
-        "@diia-inhouse/types": ">=5.0.1",
+        "@kant2002-diia-inhouse/types": ">=5.0.1",
         "bson": ">=6.2.0",
         "mongoose": ">=8.0.0"
     },
@@ -71,21 +71,21 @@
         "@babel/traverse": "7.23.2"
     },
     "jest": {
-        "preset": "@diia-inhouse/configs/dist/jest"
+        "preset": "@kant2002-diia-inhouse/configs/dist/jest"
     },
     "commitlint": {
-        "extends": "@diia-inhouse/configs/dist/commitlint"
+        "extends": "@kant2002-diia-inhouse/configs/dist/commitlint"
     },
     "eslintConfig": {
-        "extends": "@diia-inhouse/eslint-config"
+        "extends": "@kant2002-diia-inhouse/eslint-config"
     },
     "release": {
-        "extends": "@diia-inhouse/configs/dist/semantic-release/package",
+        "extends": "@kant2002-diia-inhouse/configs/dist/semantic-release/package",
         "branches": [
             "main"
         ]
     },
-    "prettier": "@diia-inhouse/eslint-config/prettier",
+    "prettier": "@kant2002-diia-inhouse/eslint-config/prettier",
     "madge": {
         "tsConfig": "./tsconfig.json"
     }

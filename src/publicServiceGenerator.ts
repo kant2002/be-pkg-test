@@ -5,7 +5,7 @@ import {
     PublicServiceSettings,
     PublicServiceStatus,
     SessionType,
-} from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/types'
 
 export default class PublicServiceGenerator {
     getPublicServiceContextMenu(contextMenuItems: PublicServiceContextMenu[] = []): PublicServiceContextMenu[] {

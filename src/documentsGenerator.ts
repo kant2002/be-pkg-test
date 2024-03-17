@@ -1,7 +1,7 @@
 import { cloneDeep, merge } from 'lodash'
 import { PartialDeep } from 'type-fest'
 
-import { DriverLicense, EResidency, ForeignPassport, InternalPassport, TaxpayerCard } from '@diia-inhouse/types'
+import { DriverLicense, EResidency, ForeignPassport, InternalPassport, TaxpayerCard } from '@kant2002-diia-inhouse/types'
 
 import { driverLicense } from './stubs/documents/driverLicense'
 import { eResidency } from './stubs/documents/eResidency'

@@ -38,7 +38,7 @@ import {
     UserActionArguments,
     UserSession,
     UserTokenData,
-} from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/types'
 
 import { GetUserActionArgumentsOps, IdentifierOps } from './interfaces'
 import RandomGenerator from './randomGenerator'

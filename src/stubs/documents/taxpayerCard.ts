@@ -1,4 +1,4 @@
-import { DocStatus, TaxpayerCard } from '@diia-inhouse/types'
+import { DocStatus, TaxpayerCard } from '@kant2002-diia-inhouse/types'
 
 export const taxpayerCard: TaxpayerCard = {
     docStatus: DocStatus.Ok,

@@ -1,6 +1,6 @@
 import { randomUUID } from 'crypto'
 
-import { DocStatus, InternalPassport, PassportType } from '@diia-inhouse/types'
+import { DocStatus, InternalPassport, PassportType } from '@kant2002-diia-inhouse/types'
 
 import photo from '../photo'
 

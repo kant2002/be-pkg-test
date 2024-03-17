@@ -1,4 +1,4 @@
-import { DocStatus, EResidency, ResidentshipStatus } from '@diia-inhouse/types'
+import { DocStatus, EResidency, ResidentshipStatus } from '@kant2002-diia-inhouse/types'
 
 import signature from '../signature'
 
